@@ -4,6 +4,8 @@ include_once 'Database.php';
 
 session_start();
 
+header('Content-Type: text/html; charset=utf-8');
+
 $html = '';
 
 if (isset($_SESSION['database'])) {
